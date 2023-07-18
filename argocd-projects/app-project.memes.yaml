@@ -49,9 +49,6 @@ spec:
           project-memes/random-meme-dev, allow
         # Rules for the production environment/application
         - >-
-          p, proj:project-memes:memes-development, applications, get,
-          project-memes/random-meme-dev, allow
-        - >-
           p, proj:project-memes:memes-development, applications, create,
           project-memes/random-meme-prod, deny
         - >-
