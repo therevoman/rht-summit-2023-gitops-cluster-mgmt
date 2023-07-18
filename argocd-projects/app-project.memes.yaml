@@ -33,9 +33,6 @@ spec:
       policies:
         # Rules for the development environment/application
         - >-
-          p, proj:project-memes:memes-development, applications, get,
-          project-memes/random-meme-dev, allow
-        - >-
           p, proj:project-memes:memes-development, applications, create,
           project-memes/random-meme-dev, allow
         - >-
